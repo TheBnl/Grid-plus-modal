@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Grid plus modal
-Plugin URI: http://broarm.nl
+Plugin URI: https://github.com/TheBnl/Grid-plus-modal
 Description: Modal toevoeging, speciaal voor Donna.
 Author: Bram de Leeuw
 Version: 0.1
