@@ -1,8 +1,13 @@
 (function(){
     'use strict';
 
+    var initiated = 0;
     // Wait for the grid to have been loaded
     $('.grid-plus-container').on('gridInitCompleted', function () {
+        initiated++;
+        if (initiated > 1) {
+            return;
+        }
 
         // capture the click and load the required html
         $('.grid-stack-item a').on('click', function (e) {

@@ -75,7 +75,7 @@ class SanityPluginFramework {
             wp_enqueue_style($css, $this->css_path.$css.'.css');
         }
         foreach($this->plugin_js as $js) {
-            wp_enqueue_script($js, $this->js_path.$js.'.js', array(), true, true);
+            wp_enqueue_script($js, $this->js_path.$js.'.js', array('jquery-core'), true, true);
         }
     }
 
